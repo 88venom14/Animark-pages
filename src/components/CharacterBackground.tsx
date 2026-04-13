@@ -6,7 +6,7 @@ const CharacterBackground: React.FC = () => {
     <>
       <div className="fixed inset-0 z-0 overflow-hidden">
         <img
-          src="/images/bg-classroom.jpg"
+          src="/Animark-pages/images/bg-classroom.jpg"
           alt=""
           className="w-full h-full object-cover"
           style={{ filter: "blur(3px) brightness(1.05) saturate(1.1)" }}
@@ -37,7 +37,7 @@ const CharacterBackground: React.FC = () => {
           transition={{ duration: 4, ease: "easeInOut", repeat: Infinity, repeatType: "loop" }}
         >
           <img
-            src="/characters/masachika.png"
+            src="/Animark-pages/characters/masachika.png"
             alt="Masachika Kuze"
             className="w-full h-auto"
             style={{
@@ -66,7 +66,7 @@ const CharacterBackground: React.FC = () => {
           transition={{ duration: 4, ease: "easeInOut", delay: 1.5, repeat: Infinity, repeatType: "loop" }}
         >
           <img
-            src="/characters/alya.png"
+            src="/Animark-pages/characters/alya.png"
             alt="Alisa Mikhailovna Kujou"
             className="w-full h-auto"
             style={{
