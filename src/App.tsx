@@ -243,7 +243,7 @@ const App: React.FC = () => {
                 className="text-sm"
                 style={{ color: "rgba(61,43,61,0.35)", fontFamily: "var(--font-body)" }}
               >
-                Made with 🌸 for fans of Alya — AniMark © 2024
+                Made with 🌸 for fans of Alya — AniMark © 2026
               </p>
             </div>
           </motion.footer>

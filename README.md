@@ -1,16 +1,16 @@
 # AniMark
 
-Fan website for the anime "Alya Sometimes Hides Her Feelings in Russian" (Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san).
+Фан-сайт аниме «Аля иногда кокетничает по-русски» (Toki Doki Bosotto Russia-go de Dereru Tonari no Alya-san).
 
-## Features
+## Возможности
 
-- Episode browser with VK Video iframe support
-- Google Sheets integration for episode data management
-- Responsive design with anime-themed UI
-- Sakura petal animations and character backgrounds
-- Single-file production build
+- Браузер эпизодов с поддержкой VK Video через iframe
+- Интеграция с Google Sheets для управления данными об эпизодах
+- Адаптивный дизайн с аниме-тематикой
+- Анимация лепестков сакуры и фоны с персонажами
+- Одностраничная производная сборка
 
-## Tech Stack
+## Стек технологий
 
 - React 19
 - TypeScript
@@ -19,56 +19,56 @@ Fan website for the anime "Alya Sometimes Hides Her Feelings in Russian" (Tokido
 - Framer Motion
 - Google Sheets API
 
-## Setup
+## Установка
 
-### Prerequisites
+### Предварительные требования
 
 - Node.js 18+
-- npm or pnpm
+- npm или pnpm
 
-### Installation
+### Установка зависимостей
 
 ```bash
 npm install
 ```
 
-### Environment Variables
+### Переменные окружения
 
-Create a `.env` file in the project root:
+Создайте файл `.env` в корне проекта:
 
 ```
-VITE_GOOGLE_SHEETS_API_KEY=your_api_key_here
-VITE_GOOGLE_SHEETS_SPREADSHEET_ID=your_spreadsheet_id_here
-VITE_GOOGLE_SHEETS_SHEET_NAME=Sheet1
+VITE_GOOGLE_SHEETS_API_KEY=ваш_api_ключ
+VITE_GOOGLE_SHEETS_SPREADSHEET_ID=ваш_id_таблицы
+VITE_GOOGLE_SHEETS_SHEET_NAME=Лист1
 ```
 
-### Google Sheets Structure
+### Структура Google Sheets
 
-Create a spreadsheet with the following columns:
+Создайте таблицу со следующими столбцами:
 
 | id | anime_title | video_url | video_type | poster_url |
 |----|-------------|-----------|-----------|------------|
-| 1  | Episode 1   | https://... | iframe   | https://... |
+| 1  | Эпизод 1    | https://... | iframe   | https://... |
 
-### Development
+### Разработка
 
 ```bash
 npm run dev
 ```
 
-### Build
+### Сборка
 
 ```bash
 npm run build
 ```
 
-### Preview
+### Предпросмотр
 
 ```bash
 npm run preview
 ```
 
-## Project Structure
+## Структура проекта
 
 ```
 src/
@@ -92,6 +92,6 @@ public/
 └── favicon.png
 ```
 
-## License
+## Лицензия
 
-This is a fan project. All anime content belongs to their respective owners.
+Это фан-проект. Все права на аниме принадлежат их правообладателям.
