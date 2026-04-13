@@ -48,8 +48,8 @@ export async function fetchEpisodes(): Promise<SheetEpisode[]> {
 
       return episode as unknown as SheetEpisode;
     })
-    .filter((ep) => ep.id > 0 && ep.title)
-    .sort((a, b) => a.id - b.id);
+    .filter((ep: SheetEpisode) => ep.id > 0 && ep.title)
+    .sort((a: SheetEpisode, b: SheetEpisode) => a.id - b.id);
 
   return episodes;
 }
